@@ -1,0 +1,62 @@
+@charaset "utf-8";
+
+body{
+font-family: 'Nanum Myeongjo', serif;
+text-align:  center;
+border-top: solid 10px #ff8c00;
+border-right: solid 10px #ff8c00;
+border-left: solid 10px #ff8c00;
+border-bottom: solid 10px #ff8c00;
+font-family: 'Sawarabi Mincho', sans-serif;
+
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+
+.kanji{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: rgb(25, 85, 166);
+    text-align: center;
+}
+
+.chinese{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: rgb(255, 215, 0);
+    text-align: center;
+}
+
+.tshirt{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.kasane1{
+    position: relative;
+}
+
+.kasane2{
+    margin-top: -2;
+    margin-bottom: -2;
+}
+
+.kasane3{
+    position: absolute;
+    left: 40%;
+}
+
+.float{
+    float: left;
+    margin-left: 200px;
+    margin-right; 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.flot-clear{
+    overflow: hidden;
+}
